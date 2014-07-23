@@ -1,9 +1,5 @@
-$(document).ready(function() {
-$("#slide-menu").hide();
+$('#nav').hide();
 
-$('.menu-trigger').on('click', function() {
-	console.log("works");
-	$("#slide-menu").slideToggle();
+$('#menu-trigger').on('click', function(){
+	$('#nav').slideToggle();
 })
-
-});
