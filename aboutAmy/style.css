@@ -1,23 +1,25 @@
-
-.container {
-	min-height: 80%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -4em;
+body {
+	background: url(img/bkg-3.jpg) no-repeat center center fixed;
+	color: #fff;
+	background-size: cover;
+	min-width: 80%;
 }
 
-body {
-	background: #EE88CD;
-	color: #fff;
+.wrapper {
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
 }
 
 #header {
 	font-family: 'Pacifico', cursive;
-	max-height: 40%;
-	max-width: 80%;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	padding: 10px;
+	font-size: 28px;
+	margin-top: -10px;
 
 }
 
@@ -25,6 +27,23 @@ body {
 	margin: 0 auto;
 	border-radius: 100%;
 	border: 5px solid #fff;
+}
+
+#nav {
+	max-width: 20%;
+	max-height: 100%;
+}
+
+#nav ul li {
+	list-style: none;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
 }
 
 div.questions div.answers {
@@ -35,8 +54,8 @@ div.questions div.answers {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 16px;
-	background: #D31D8C;
+	font-size: 18px;
+	background: #34DDDD;
 	opacity: 0.5;
 	max-width: 30%;
 	max-height: 100%;
@@ -46,15 +65,15 @@ div.questions div.answers {
 }
 
 .questions:hover {
-	background: #FF0080;
+	background: #7AF5F5;
 }
 
 .answers {
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 16px;
-	background: #EE88CD;
+	font-size: 18px;
+	background: #93E2D5;
 	opacity: 0.5;
 	max-width: 30%;
 	max-height: 100%;
@@ -65,14 +84,14 @@ div.questions div.answers {
 }
 
 .footer, .push {
-	height: 4em;
+	height: 2em;
 }
 
 .footer {
 	width: 100%;
 	overflow: hidden;
 	*position: relative;
-	margin-top: 15px;
+/*	margin-top: 15px;*/
 }
 
 .social {
@@ -84,7 +103,7 @@ div.questions div.answers {
 
 .social > img {
 	display: inline-block;
-	margin-top: 10px;
+/*	margin-top: 10px;*/
 	height: 10px;
 	width: 10px;
 }
@@ -94,30 +113,3 @@ div.questions div.answers {
 	font-family: 'Pacifico', cursive;
 	color: #fff;
 }
-#nav {
-	min-width: 20%;
-	float: left;
-}
-
-#nav ul li {
-	list-style: none;
-	font-family: 'Pacifico', cursive;
-	color: #fff;
-	font-size: 18px;
-}
-
-#menu-trigger {
-	height: 20px;
-	width: 20px;
-	background: url(bkg-4.jpg);
-}
-
-a {
-	text-decoration: none;
-	color: #fff;
-}
-
-
-
-
-

@@ -1,3 +1,4 @@
+
 .container {
 	min-height: 100%;
 	height: auto !important;
@@ -6,8 +7,9 @@
 }
 
 body {
-	background: #34DDDD;
+	background: url(img/bkg-3.jpg) no-repeat center center fixed;
 	color: #fff;
+	background-size: cover;
 }
 
 #header {
@@ -34,25 +36,26 @@ div.questions div.answers {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 16px;
-	background: #93E2D5;
+	font-size: 18px;
+	background: #89E894;
 	max-width: 30%;
 	max-height: 100%;
 	border-radius: 20px;
 	margin: 0 auto;
 	padding: 10px;
+	opacity: 0.4;
 }
 
 .questions:hover {
-	background:  #89E894; 
+	background:  #93E2D5; 
 }
 
 .answers {
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 16px;
-	background: #93E2D5;
+	font-size: 18px;
+	background: #89E894;
 	opacity: 0.5;
 	max-width: 30%;
 	max-height: 100%;
