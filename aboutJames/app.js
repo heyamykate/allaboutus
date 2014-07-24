@@ -1,6 +1,16 @@
-$('.answers').hide();
+$(document).ready(function() {
 
-$('.questions').on('click', function() {
-	var answer = $('.answers');
-	$(this).next(answer).slideToggle();
+	$('#homieslist').hide();
+
+	$('#homies').on('click', function(){
+		$('#homieslist').slideToggle();
+	})
+
+	$('.answers').hide();
+
+	$('.questions').on('click', function() {
+		var answer = $('.answers');
+		$(this).next(answer).slideToggle();
+	})
+
 })

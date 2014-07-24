@@ -1,31 +1,59 @@
+* {
+  margin: 0;
+}
 
-.container {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -4em;
+html, body {
+  height: 100%;
 }
 
 body {
 	background: url(img/bkg-3.jpg) no-repeat center center fixed;
 	color: #fff;
 	background-size: cover;
+	min-width: 80%;
 }
 
-#header {
+.wrapper {
+	width: 100%;
+	margin: 0 auto 20px;
+	height: 100%;
+	height: auto !important;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+.content {
+	position: relative;
 	font-family: 'Pacifico', cursive;
-	max-height: 40%;
-	max-width: 70%;
-	margin: 0 auto;
+	color: #fff;
 	text-align: center;
-	padding: 10px;
-
+	font-size: 28px;
+	width: 70%;
+	float: right;
 }
 
-#headshotPic {
-	margin: 0 auto;
-	border-radius: 100%;
-	border: 5px solid #fff;
+#sidenav {
+	float: left;
+	width: 25%;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+
+#sidenav ul li {
+	list-style: none;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	list-style: none;
 }
 
 div.questions div.answers {
@@ -37,17 +65,22 @@ div.questions div.answers {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	font-size: 18px;
-	background: #89E894;
-	max-width: 30%;
+	font-weight: 500;
+	background: #34DDDD;
+	opacity: 0.5;
+	width: 60%;
 	max-height: 100%;
 	border-radius: 20px;
-	margin: 0 auto;
-	padding: 10px;
-	opacity: 0.4;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .questions:hover {
-	background:  #93E2D5; 
+	background: #7AF5F5;
 }
 
 .answers {
@@ -55,25 +88,29 @@ div.questions div.answers {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	font-size: 18px;
-	background: #89E894;
+	font-weight: 500;
+	background: #93E2D5;
 	opacity: 0.5;
-	max-width: 30%;
+	width: 60%;
 	max-height: 100%;
 	border-radius: 20px;
 	margin: 0 auto;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 
 .footer, .push {
-	height: 4em;
+	height: 20px;
 }
 
 .footer {
 	width: 100%;
 	overflow: hidden;
 	*position: relative;
-	margin-top: 15px;
+/*	margin-top: 15px;*/
 }
 
 .social {
@@ -95,3 +132,11 @@ div.questions div.answers {
 	font-family: 'Pacifico', cursive;
 	color: #fff;
 }
+
+.content img {
+	border-radius: 100%;
+	border: 2px solid #fff;
+}
+
+
+
