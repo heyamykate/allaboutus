@@ -3,7 +3,7 @@
 }
 
 body {
-	background: url(img/bkg-3.jpg) no-repeat center center fixed;
+	background: url(img/bkg-2.jpg) no-repeat center center fixed;
 	color: #fff;
 	background-size: cover;
 	min-width: 80%;
@@ -64,7 +64,7 @@ div.questions div.answers {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
-	background: #34DDDD;
+	background: #D1A886;
 	opacity: 0.5;
 	width: 60%;
 	max-height: 100%;
@@ -78,7 +78,7 @@ div.questions div.answers {
 }
 
 .questions:hover {
-	background: #7AF5F5;
+	background: #BF8556;
 }
 
 .answers {
@@ -87,7 +87,7 @@ div.questions div.answers {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
-	background: #93E2D5;
+	background: #C49268;
 	opacity: 0.5;
 	width: 60%;
 	max-height: 100%;
@@ -138,6 +138,3 @@ div.questions div.answers {
 	border-radius: 100%;
 	border: 2px solid #fff;
 }
-
-
-
