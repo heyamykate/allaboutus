@@ -15,7 +15,7 @@ html {
 	color: #fff;
 	text-align: center;
 	font-size: 28px;
-	width: 60%;
+	width: 75%;
 }
 
 #header p {
@@ -30,7 +30,7 @@ html {
 }
 
 #sidenav {
-	width: 25%;
+	width: 20%;
 }
 
 #sidenav ul li {
