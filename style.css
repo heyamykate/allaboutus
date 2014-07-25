@@ -1,0 +1,79 @@
+
+html {
+	background: url(img/bkg-4.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 28px;
+	width: 60%;
+}
+
+#header p {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+#sidenav, #header {
+	float: left;
+}
+
+#sidenav {
+	width: 25%;
+}
+
+#sidenav ul li {
+	list-style: none;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	list-style: none;
+}
+
+#footer, #push {
+	height: 4em;
+}
+
+#footer {
+	font-family: 'Pacifico'; cursive;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	*position: relative;
+	margin-top: 15px;
+}
+
+@media only screen and (max-device-width: 800px) {
+	#sidenav:before {
+		float:  right;
+		display: block;
+		width: 300px;
+		height: 150px;
+		margin: 0 0 15px 15px;
+	}
+
+	#footer {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 300px;
+	}
+}
