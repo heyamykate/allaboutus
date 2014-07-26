@@ -46,6 +46,19 @@ body {
 	font-family: 'Pacifico', cursive;
 	color: #fff;
 	font-size: 25px;
+	background: #62B3BF;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+
+#sidenav ul li:hover {
+	background: #59BDA4;
 }
 
 a {
