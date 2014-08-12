@@ -2,25 +2,20 @@
   margin: 0;
 }
 
-html {
-	background: url(img/bkg-8.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
-
-.container-fluid {
-	background: url(img/bkg-8.jpg) no-repeat center center fixed;
-	color: #fff;
-	background-size: cover;
-	min-width: 80%;
-	padding-bottom: 100px;
-	height: auto;
+body {
+  background: url(img/bkg-8.jpg) no-repeat center center fixed;
+  color: #fff;
+  background-size: cover;
+  min-width: 80%;
+  padding-bottom: 100px;
+  height: auto;
 }
 
 .wrapper {
-	width: 90%;
-	margin: 0 auto -20px;
-	height: auto;
-	height: auto !important;
+  width: 90%;
+  margin: 0 auto -20px;
+  height: auto;
+  height: auto !important;
 }
 
 .wrapper:after {
@@ -29,130 +24,129 @@ html {
 }
 
 .content {
-	position: relative;
-	font-family: 'Pacifico', cursive;
-	color: #fff;
-	text-align: center;
-	font-size: 28px;
-/*	width: 75%;*/
-	float: right;
-	margin-top: 20px;
+  position: relative;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  width: 75%;
+  float: right;
+  margin-top: 20px;
 }
 
 #sidenav {
-	float: left;
-/*	width: 20%;
-	margin-top: 30px;*/
-	position: fixed;
+  float: left;
+  width: 20%;
+  margin-top: 30px;
+  position: fixed;
 }
 
-
 #sidenav ul li {
-	list-style: none;
-	font-family: 'Pacifico', cursive;
-	color: #fff;
-	font-size: 25px;
-	background: #f92f79;
-/*	border-radius: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;*/
-	text-align: center;
-	opacity: 0.5;
+  list-style: none;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-size: 25px;
+  background: #f92f79;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 #sidenav ul li:hover {
-	background: #FF0080;
+  background: #FF0080;
 }
 
 a {
-	text-decoration: none;
-	color: #fff;
-	list-style: none;
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
 }
 
 div.questions div.answers {
-	display: block;
+  display: block;
 }
 
 .questions {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	background: #f92f79;
-	opacity: 0.5;
-	width: 60%;
-	max-height: 100%;
-	border-radius: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background: #f92f79;
+  opacity: 0.5;
+  width: 60%;
+  max-height: 100%;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .questions:hover {
-	background: #FF0080;
+  background: #FF0080;
 }
 
 .answers {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	background: #F26695;
-	opacity: 0.5;
-	width: 60%;
-	max-height: 100%;
-	border-radius: 20px;
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background: #F26695;
+  opacity: 0.5;
+  width: 60%;
+  max-height: 100%;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 .footer, .push {
-	height: 20px;
+  height: 20px;
 }
 
 .footer {
-	width: 100%;
-	overflow: none;
-	*position: relative;
+  width: 100%;
+  overflow: none;
+  *position: relative;
 }
 
 .social {
-	margin-left: auto;
-	margin-right: auto;
-	width: 75%;
-	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
 
 }
 
 .social > img {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 10px;
-	width: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  width: 10px;
 }
 
 .follow h3 {
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-	color: #fff;
-	height: 15px;
-	width: 100%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  height: 15px;
+  width: 100%;
 }
 
 .content img {
-	border-radius: 100%;
-	border: 2px solid #fff;
+  border-radius: 100%;
+  border: 2px solid #fff;
 }

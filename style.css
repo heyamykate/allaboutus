@@ -7,7 +7,7 @@ html {
 
 .container-fluid {
 	background: url(img/bkg-4.jpg) no-repeat center center fixed;
-	background-size: cover;	
+	background-size: cover;
 }
 
 a {
@@ -42,7 +42,8 @@ a {
 	text-align: center;
 	opacity: 0.5;
 	width: 100%;
-	list-style: none;	
+	list-style: none;
+	border-radius: 20px;
 }
 
 #sidenav li {
@@ -73,4 +74,38 @@ a {
 	overflow: hidden;
 	*position: relative;
 	margin-top: 15px;
+}
+
+.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 20px;
+	margin-left: 20px;
+	font-family: 'Pacifico';
+}
+
+.nav>li>a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #e8afae;
+
+}
+
+#sidenav ul li:hover {
+background: #e8afae;
+}
+
+#sidenav ul li {
+list-style: none;
+font-family: 'Pacifico', cursive;
+color: #fff;
+font-size: 25px;
+background: #db6f6d;
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+opacity: 0.8;
 }
